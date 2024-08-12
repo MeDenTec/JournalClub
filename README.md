@@ -20,6 +20,16 @@ The things you need before installing the software.
    - and these one in speech.js
 
 
+### Built With
+
+This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+
+* [![Python][Python.org]][Python-url]
+* [![HTML][HTML.com]][HTML-url]
+* [![CSS][CSS.com]][CSS-url]
+* [![Javascript][Javascript.com]][Javascript-url]
+
+
 
 ### Installation
 
@@ -34,8 +44,6 @@ $ open exposed localhost, (http://localhost:5000)
 
 ## Usage
 
-
-
 ```
 $ Ask about your data.
 $ Use mic button to hear the response within media player you can control timing of played audio.
@@ -44,6 +52,3 @@ $ Use mic button to hear the response within media player you can control timing
 ## Demo of Application
 
 https://github.com/user-attachments/assets/7398eff9-1a9e-4c50-8c46-00f7450d5049
-
-
-
