@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.chat-container {
+    width: 90%;
+    max-width: 400px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    height: 100%;
+    overflow-y: scroll;
+}
+
+.chat-header {
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.chat-header img {
+    width: 50px;
+}
+
+.chat-body {
+    flex-grow: 1;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.chat-footer {
+    display: flex;
+    border-top: 1px solid #ddd;
+    padding: 10px;
+}
+
+.chat-footer input {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.chat-footer button {
+    margin-left: 10px;
+    padding: 10px;
+    background-color: #0078d4;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.chat-footer button:hover {
+    background-color: #005a9e;
+}
+
+.chat-message {
+    margin-bottom: 10px;
+}
+
+.chat-message.user {
+    text-align: right;
+}
+
+.chat-message.user p {
+    background-color: #0078d4;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.chat-message.bot p {
+    background-color: #f1f1f1;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+}
+/* Change the width of the player */
+.plyr {
+    width: 100%; /* Adjust as needed */
+}
+
+/* Adjust the size of the controls */
+.plyr__controls {
+    font-size: 4px; /* Smaller control buttons */
+}
+.plyr__controls button {
+    padding: 0;
+}
+.plyr__volume{
+    display: none;
+}
+/* hide volume control button */
+
+.loader {
+    text-align: center;
+    width: 100%;
+}
+
+.loader_message{
+    width: 20%;
+    padding: 10px;
+    border-radius: 10px;
+}
+.loader span {
+    display: inline-block;
+    vertical-align: middle;
+    width: 13px;
+    height: 13px;
+    background: black;
+    border-radius: 20px;
+    animation: loader 0.8s infinite alternate;
+}
+.loader span:nth-of-type(2) {
+    animation-delay: 0.2s;
+}
+.loader span:nth-of-type(3) {
+    animation-delay: 0.6s;
+}
+@keyframes loader {
+0% {
+    opacity: 0.9;
+    transform: scale(0.5);
+}
+100% {
+    opacity: 0.1;
+    transform: scale(1);
+}
+}

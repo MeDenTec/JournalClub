@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Application</title>
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css">
+    <link rel="stylesheet" href="../static/css/style.css">
+
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">
+            <!-- <img src="contoso-logo.png" alt="Contoso Logo"> -->
+            <h2>Start chatting</h2>
+        </div>
+        <div class="chat-body" id="chat-body">
+            <!-- Chat messages will be appended here -->
+        </div>
+        <div class="chat-footer">
+            <input type="text" id="chat-input" placeholder="Type a new question...">
+            <button onclick="sendMessage()">Send</button>
+        </div>
+    </div>
+
+    <!-- <div class="speech">
+        <input type="text" name="" id="text_speech">
+        <button id="speech_btn">Speech</button>
+    </div> -->
+    <script src="../static/js/app.js"></script>
+    <script src="https://aka.ms/csspeech/jsbrowserpackageraw"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="../static/js/speech.js"></script>
+    
+    <!-- Plyr Media Player -->
+    <script src="https://cdn.plyr.io/3.7.8/plyr.js"></script>
+</body>
+</html>
