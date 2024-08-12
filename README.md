@@ -16,11 +16,11 @@ Before installing the software, ensure you have:
 - An IDE or code editor for updating and running the project
 - Necessary API keys, which should be placed in specific files as outlined below:
 
-  - [Image](https://github.com/user-attachments/assets/d3d339c2-1a99-43ea-ac09-5493f4dd313f)
+  - ![Image](https://github.com/user-attachments/assets/d3d339c2-1a99-43ea-ac09-5493f4dd313f)
   - Add all required keys in `app.py`
   - Update the model code for your Retrieval-Augmented Generation (RAG) setup to ensure it runs properly.
   - Create a `.env` file and store all sensitive keys there for security.
-  - [Image](https://github.com/user-attachments/assets/66790caa-f0fe-4472-b1bb-adf8d1e2a0b7)
+  - ![Image](https://github.com/user-attachments/assets/66790caa-f0fe-4472-b1bb-adf8d1e2a0b7)
   - Include these keys in `speech.js`
 
 ### Built With
@@ -109,4 +109,11 @@ If you encounter issues, try the following steps:
 
 4. **Browser Issues:**
    - If you experience issues with the web interface, try clearing your browser cache or using a different browser.
+
+## Demo
+
+
+
+https://github.com/user-attachments/assets/00320681-86fc-4d31-b648-0bc3d6ae284d
+
 
